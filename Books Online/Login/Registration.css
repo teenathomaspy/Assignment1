@@ -1,0 +1,24 @@
+.form-body{
+    background-color:beige;
+    
+    padding: 10px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.form-outline{
+    width: 60%;
+    margin: auto;
+}
+
+.form-controls{
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+.form-label{
+    padding-left: 2px;
+}
+.form-buttons
+{
+    margin-left:40% ;
+    margin-top: 3%;
+}
