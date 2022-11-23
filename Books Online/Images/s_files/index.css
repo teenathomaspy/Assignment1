@@ -1,39 +1,42 @@
 body
 {
     position: relative;
-    /* bottom: 5px; */
-    left: 10px;
 }
 .banner
 {
     width: 100%;
     height: 50px;
     color:white;
-    background-color: lightseagreen;
+    background-color: lightgreen;
     background-attachment: fixed;
     text-align: center;
-    /* margin: 10px 5px; */
+    margin: 10px 5px;
     padding-top: 10px;
-    display: inline-block;
-    
     
 }
 h3{
     width: 75%;
     float: left;
 }
-#navigation {
-    background-color: #d4e5b6;
-}
 
+.jumbtron{
+    width: 100%;
+    height: 200px;
+    background-color: brown;
+    color: white;
+    padding-top: 60px;
+    margin-top: 20%;
+    border: 1px solid brown;
+    text-align: center;
+    font-size: xx-large;
+}
 footer{
     
     padding: 10px 3px;
     text-align: center;
-    background-color: #d4e5b6;
+    background-color: grey;
     bottom: 0px;
     width: 100%;
-    max-width: inherit;
     position: fixed;
  
    
@@ -42,12 +45,12 @@ footer{
   left:5px;  
 }
 .card{
-    border: 2px solid darkolivegreen;
+    border: 2px solid black;
     width: 200px;
     padding: 3px;
     box-sizing: border-box;
     float: left;
-    margin: 6px;
+    margin-left: 6px;
    
 }
 .card-img-top{
@@ -66,23 +69,5 @@ footer{
     overflow: auto;
 }
 .card-body .btn{
-    background-color: #c0e5d4;
-}
-#mostPopularHead{
-    background-color: #c0e5d4;
-    padding: 5px;
-    margin: 3px;
-    font-style: italic;
-}
-#mostPopular{
-    width: 100%;
-}
-#newReleaseHead{
-    background-color: #c0e5d4;
-    padding: 5px;
-    margin: 3px;
-    font-style: italic;
-}
-#release, #popular{
-    display: inline-block;
+    background-color: darkolivegreen;
 }

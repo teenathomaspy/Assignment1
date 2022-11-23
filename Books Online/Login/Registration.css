@@ -1,6 +1,13 @@
+html{
+    height: 100%;
+}
+body, .container,form ,.form-body {
+    height: inherit;
+}
+
 .form-body{
-    background-color:beige;
-    
+    background-color:#c0e5d4;
+    height: 100%;
     padding: 10px;
     margin: auto;
     box-sizing: border-box;
